@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 50%;
+    background-color: #F0D9FF;
+    margin: 0 auto;
+    height: 100vh;
+}
+body{
+    background-color: #BFA2DB;
+}
+.social{
+    width: 75px;
+}
+.header{
+    padding-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.main p:first-child{
+    width: 80%;
+    margin: 0 auto;
+}
+.main p:nth-child(2){
+    margin: 50px 0 25px 50px;
+}
+.img{
+    width: 100%;
+    display: block;
+}
+.link{
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+}
+.footer{
+    height: 150px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
